@@ -1,0 +1,85 @@
+body {
+  background-color: #000;
+  background-image: linear-gradient(to top, #ff6500, #f86300, #f26100, #eb5e00, #e55c00);
+  color: #fff;
+  font-family: Poppins;
+}
+html, body{
+  height: 100%;
+  overflow: hidden;
+}
+
+img.logo {
+  margin-top: 10vh;
+  width: 300px;
+}
+
+h2{
+  color: #000;
+  font-size: 30px;
+  margin-top: 1%;
+  font-weight: 600;
+  word-spacing: 4px;
+  margin-bottom: 11px;
+
+}
+h3.oeste{
+  color: #000;
+  font-size: 27px;
+  margin-top: -1%;
+  font-weight:900;
+  word-spacing: 4px;
+ }
+
+.login {
+  border: 1px solid #303037;
+  background-color: #000;
+  border-radius: 15px;
+  margin-top: 50px;
+  padding: 30px;
+  width: 23%;
+}
+
+input {
+  background-color: #262a35;
+  border: 0px;
+  border-radius: 15px;
+  color: #b3b3b3;
+  font-family: Poppins;
+  font-size: 13px;
+  margin-bottom: 20px;
+  padding: 15px 20px 15px 20px;
+  transition: background 300ms;
+  width: 90% !important;
+}
+
+input::placeholder {
+  color: #b3b3b3;
+  font-weight: 300;
+}
+
+input:hover {
+  background: #FFFFFF30;
+}
+
+form{
+  margin-bottom: 0px !important;
+}
+
+button {
+  background: #ff6600;
+  border: 1px solid #ff6600;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 13px;
+  padding: 15px;
+  transition: all 300ms;
+  width: 97%;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #ff6600;
+}
